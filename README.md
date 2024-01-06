@@ -20,8 +20,7 @@
 
             try {
                 // Replace 'YOUR_GOOGLE_SHEETS_URL' with the URL of your Google Sheets
-                const response = await fetch('[YOUR_GOOGLE_SHEETS_URL](https://docs.google.com/spreadsheets/d/1MMsIae7oOROWQiVZtiC8yfjMT18XiMllY7wR2ECgCMA/edit#gid=270340332)');
-                const data = await response.json();
+                const response = await fetch('[YOUR_GOOGLE_SHEETS_URL]
 
                 const sessions = data.reduce((acc, row) => {
                     const [name, session] = row;
